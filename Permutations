@@ -32,3 +32,24 @@ if __name__ == '__main__':
 
     A = 'DEFG'
     permutation(A)
+
+"""
+def permutation(A):
+    B+=A[i]
+    #new string with A[i] removed
+    C=A[:i]+A[i+1:]
+
+    return B, C
+
+
+for i in range(0, len(A)):
+    B = ''
+    permutation(A)
+    #print "i=", i
+    for j in range(0, len(C)):
+        while len(C)>0:
+            permutation(C)
+
+    print B
+
+"""
